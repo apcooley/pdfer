@@ -1,2 +1,3 @@
 /config.yaml
 /uv.lock
+/src/pdfer/__pycache__/
