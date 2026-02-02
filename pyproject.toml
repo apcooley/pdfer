@@ -1,0 +1,18 @@
+[project]
+name = "pdfer"
+version = "0.1.0"
+description = "Convert images in a folder to a single PDF file"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "img2pdf>=0.5.0",
+    "Pillow>=10.0.0",
+    "PyYAML>=6.0",
+]
+
+[project.scripts]
+pdfer = "pdfer.main:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
